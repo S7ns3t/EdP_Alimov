@@ -26,8 +26,6 @@ namespace EdP_Alimov
             {
                 Feedback.Visibility = Visibility.Collapsed;
             }
-
-            MainFrame = MainFrame;
         }
 
         private void MainFrame_Navigated(object sender, NavigationEventArgs e)
