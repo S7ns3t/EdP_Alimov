@@ -57,11 +57,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="view\PartnerHistoryView.xaml.cs">
-      <DependentUpon>PartnerHistoryView.xaml</DependentUpon>
+    <Compile Include="Utility.cs" />
+    <Compile Include="view\AddAndEditUserView.xaml.cs">
+      <DependentUpon>AddAndEditUserView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="view\PartnersView.xaml.cs">
-      <DependentUpon>PartnersView.xaml</DependentUpon>
+    <Compile Include="view\PartnerView.xaml.cs">
+      <DependentUpon>PartnerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="view\PartnersHistoryView.xaml.cs">
+      <DependentUpon>PartnersHistoryView.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -75,11 +79,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="view\PartnerHistoryView.xaml">
+    <Page Include="view\AddAndEditUserView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="view\PartnersView.xaml">
+    <Page Include="view\PartnerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="view\PartnersHistoryView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
